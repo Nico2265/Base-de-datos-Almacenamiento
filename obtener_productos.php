@@ -1,7 +1,5 @@
 <?php
-
 // Configuración de encabezados para permitir acceso desde React
-
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
@@ -30,3 +28,4 @@ try {
     echo json_encode(["error" => $e->getMessage()]);
 }
 ?>
+
